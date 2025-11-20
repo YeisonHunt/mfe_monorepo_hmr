@@ -1,0 +1,23 @@
+{
+  "name": "remote",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rspack dev",
+    "build": "rspack build",
+    "preview": "rspack preview"
+  },
+  "dependencies": {
+    "@repo/ui": "workspace:*",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.6.4",
+    "@rspack/core": "^1.6.4",
+    "@rspack/plugin-react-refresh": "^1.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "react-refresh": "^0.18.0"
+  }
+}
